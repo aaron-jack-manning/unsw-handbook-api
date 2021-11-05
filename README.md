@@ -27,7 +27,7 @@ Conditions of Enrolment:
 - Prerequisite: MATH1231 or DPST1014 or MATH1241 or MATH1251 each with a mark of at least 70; Exclusion: MATH2069
 ```
 
-Similarly the `UNSWHandbookAPI.GetProgram()` method returns an instance of the `Program` class, similarly to the above.
+Similarly the `UNSWHandbookAPI.GetProgram()` method returns an instance of the `Program` class, similar to the above.
 
 The desired handbook page year can be specified as an optional third parameter. When left blank, this will default to the current year.
 
