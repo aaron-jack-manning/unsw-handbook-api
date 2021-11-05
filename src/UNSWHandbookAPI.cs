@@ -95,7 +95,6 @@ namespace UNSW_Handbook_API
 
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine(1);
                 ProgramResponse programResponse =
                         JsonConvert.DeserializeObject<ProgramResponse>(
                             await response.Content.ReadAsStringAsync());
